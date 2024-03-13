@@ -59414,7 +59414,7 @@ const Y7 = () => ({
       id: 3,
       flow: G.jsxs("h5", {
         children: [
-          "Click the to perform",
+          "Click  to perform",
           " ",
           G.jsx("q", {
             style: { color: "green", fontSize: 15, margin: 0 },
@@ -59503,7 +59503,7 @@ const Y7 = () => ({
       id: 4,
       flow: G.jsxs("h5", {
         children: [
-          "Click the to perform",
+          "Click  to perform",
           " ",
           G.jsx("q", {
             style: { color: "green", fontSize: 15, margin: 0 },
@@ -59730,7 +59730,7 @@ const Y7 = () => ({
       id: 3,
       flow: G.jsxs("h5", {
         children: [
-          "Click the to perform",
+          "Click  to perform",
           " ",
           G.jsx("q", {
             style: { color: "green", fontSize: 15 },
@@ -59860,7 +59860,7 @@ const Y7 = () => ({
       id: 4,
       flow: G.jsxs("h5", {
         children: [
-          "Click the to perform",
+          "Click to perform",
           " ",
           G.jsx("q", {
             style: { color: "green", fontSize: 15 },
@@ -60148,7 +60148,7 @@ const Y7 = () => ({
       id: 4,
       flow: G.jsxs("h5", {
         children: [
-          "Click the to perform",
+          "Click  to perform",
           " ",
           G.jsx("q", {
             style: { color: "green", fontSize: 15 },
@@ -75611,7 +75611,7 @@ const XJ = Op,
       ],
     });
   },
-  YJ = "images/correct-LGGHlV9_.mp3",
+  YJ = "/assets/correct-LGGHlV9_.mp3",
   KJ = () => {
     const {
         isConverted: t,
