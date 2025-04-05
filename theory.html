@@ -1,0 +1,605 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'AMRT',
+        'phase': 'Testing',
+        'expName': 'CONVERSION OF RE TO NFA',
+        'expShortName': 'convert-re-to-nfa'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="convert-re-to-nfa">
+    	<meta name="developer-institute" content="AMRT">
+    	<meta name="learning-unit" content="CONVERSION OF RE TO NFA">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="./assets/css/toast.css">
+    <link rel="stylesheet" href="./assets/katex_assets/katex.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center justify-content-end">
+            <div class="svc-rating-display">
+                <rating-display spreadsheetid="1x12nhpp0QvnsA6x-O1sV4IA9SAbfVsq_wiexWkutOmU" sheetname="Experiment-Database" columnname="Experiment Short Name" columnvalue="convert-re-to-nfa" imagesdirectory="/plugins/svc-rating/images/">
+                </rating-display>
+            </div>      <div class="svc-rating-submit">
+                <rating-submit title="Rate" this="" experiment="">
+                </rating-submit>
+            </div>      <bug-report id="bug-report" title="[BUG REPORT] CONVERSION OF RE TO NFA" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;AMRT&quot;,&quot;expname&quot;:&quot;CONVERSION OF RE TO NFA&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" button_style="border: none; color: #fff; background-color: #288ec8; text-align: center; font-size: 1.05rem; border-radius: 1em;padding: 0.6em 1.2em; margin: 0 10px" position="override" custom_button_class="v-button"></bug-report>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+          <div class="row py-4 px-4 breadcrumbs">
+          	<div class="title is-4 tools">Tools</div>
+          	<span class="mx-2">
+          		<i aria-hidden="true" class="fa fa-angle-right"></i>
+          	</span>
+          	<a href="performance-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Performance Tool</button>
+          	</a>
+          	<a href="validator-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Validation Tool</button>
+          	</a>
+          </div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="contributors.html" class="p-2 ">
+                                      Contributors
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="contributors.html" class="p-2 ">
+                        Contributors
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2>Conversion of RE to NFA</h2>
+            </div>
+              <h1>Theory</h1>
+          
+          
+          <p><strong>Finite Automaton (FA)</strong></p>
+          <p>A Finite Automaton (FA) is a mathematical model of computation used to recognize and process patterns in a given set of strings. It operates as an abstract machine with a finite number of states and follows predefined rules to determine whether an input string belongs to a particular language.</p>
+          <p>Finite automata are the building blocks of regular languages and play a crucial role in computational theory, lexical analysis, and compiler design. They provide a systematic way to define and analyze patterns in text, making them essential for text searching, data validation, and language processing.</p>
+          
+          
+          <p><strong>Regular Expressions (RE)</strong></p>
+          <p>A regular expression is a powerful way to define and describe patterns within a language. It provides a structured method for specifying sets of strings that can be recognized by finite automata.</p>
+          <p>Regular expressions serve as a formal notation used to define regular languages, which are languages that can be processed by deterministic or non-deterministic finite automata (DFA/NFA). They help in pattern matching, text processing, and defining syntactic structures in programming and computational theory.</p>
+          <p>At its core, a regular expression is a sequence of symbols and operators that defines a pattern for valid strings in a given language. These expressions are fundamental in computer science, particularly in lexical analysis, text searching, and compiler design.</p>
+          <p>By using regular expressions, we can describe complex patterns in a simple and readable manner, making them one of the most effective tools for representing and manipulating languages.</p>
+          
+          <p><strong>Non-Deterministic Finite Automata (NFA)</strong></p>
+          <p>A Non-Deterministic Finite Automaton (NFA) is a type of finite automaton used in automata theory to recognize regular languages. Unlike a Deterministic Finite Automaton (DFA), where each state has exactly one transition for each input symbol, an NFA allows multiple possible transitions for the same input or even transitions without consuming any input (ε-transitions).</p>
+          
+          <p><strong>Key Characteristics of NFA</strong></p>
+          <p><strong>Multiple Transitions for the Same Input:</strong></p>
+          <p>In an NFA, a state can have multiple outgoing transitions for a single input symbol. This means that for a given input, the automaton can move to several different states instead of just one.</p>
+          <p><strong>ε (Epsilon) Transitions:</strong></p>
+          <p>An NFA allows transitions that do not consume any input symbols. These are called <strong>ε-transitions</strong> and enable the automaton to change states without reading an input character.</p>
+          <p><strong>Flexibility in Path Selection:</strong></p>
+          <p>Since an NFA can move to multiple states for the same input, it does not require a fixed transition path like a DFA. Instead, it explores all possible paths simultaneously and accepts if at least one path leads to a final (accepting) state.</p>
+          <p><strong>Equivalence to DFA:</strong></p>
+          <p>While NFAs provide more flexibility in designing automata, every NFA can be converted into an equivalent DFA that recognizes the same language. However, this conversion may result in a DFA with exponentially more states than the original NFA.</p>
+          
+          <p><strong>Operations in Converting a Regular Expression to an NFA</strong></p>
+          <p>When converting a Regular Expression (RE) into a Nondeterministic Finite Automaton (NFA), several fundamental operations help in constructing the automaton. Each operation represents a key component of how regular expressions work and how they translate into state transitions in an NFA.</p>
+          <hr>
+          
+          <p><strong>1. Concatenation</strong></p>
+          <p><strong>Definition:</strong></p>
+          <p>Concatenation is the operation of <strong>joining two expressions sequentially</strong>, meaning the second expression follows immediately after the first in any valid string.</p>
+          <p><strong>Understanding Concatenation:</strong></p>
+          <ul>
+              <li>If <strong>R₁</strong> and <strong>R₂</strong> are two regular expressions, then their concatenation (<strong>R₁R₂</strong>) means that a string belonging to <strong>R₁</strong> must be followed directly by a string belonging to <strong>R₂</strong>.</li>
+              <li>For example, if <strong>R₁ = "ab"</strong> and <strong>R₂ = "cd"</strong>, then the concatenated expression <strong>"abcd"</strong> is valid, but <strong>"acbd"</strong> is not.</li>
+          </ul>
+          <p><strong>Example Patterns:</strong></p>
+          <ul>
+              <li><code>"hello" + "world"</code> → Matches <code>"helloworld"</code></li>
+              <li><code>"abc" + "123"</code> → Matches <code>"abc123"</code>, but not <code>"ab123c"</code></li>
+          </ul>
+          
+          <p><strong>2. Union (Alternation / Choice)</strong></p>
+          <p><strong>Definition:</strong></p>
+          <p>Union provides <strong>a choice between two expressions</strong>, allowing a match with <strong>either</strong> of them. This is represented by the <code>|</code> (pipe symbol) in regular expressions.</p>
+          <p><strong>Understanding Union:</strong></p>
+          <ul>
+              <li>If <strong>R₁ | R₂</strong> represents a regular expression, a valid string can belong to <strong>either R₁ or R₂</strong>.</li>
+              <li>It does not mean that both must appear in sequence; rather, the automaton selects one of them at any point.</li>
+          </ul>
+          <p><strong>Example Patterns:</strong></p>
+          <ul>
+              <li><code>"cat|dog"</code> → Matches <code>"cat"</code> or <code>"dog"</code>, but not <code>"catdog"</code>.</li>
+              <li><code>"apple|orange|banana"</code> → Matches <code>"apple"</code>, <code>"orange"</code>, or <code>"banana"</code>.</li>
+          </ul>
+          
+          <p><strong>3. Kleene Star (*)</strong></p>
+          <p><strong>Definition:</strong></p>
+          <p>The Kleene star is an operator that allows <strong>zero or more repetitions</strong> of the preceding expression.</p>
+          <p><strong>Understanding Kleene Star:</strong></p>
+          <ul>
+              <li>If <strong>R*</strong> represents a regular expression, it means that the pattern can appear <strong>any number of times</strong>, including not appearing at all (<strong>zero times</strong>).</li>
+              <li>It is useful for defining repeating sequences without a fixed limit.</li>
+          </ul>
+          <p><strong>Example Patterns:</strong></p>
+          <ul>
+              <li><code>"a*"</code> → Matches <code>""</code> (empty string), <code>"a"</code>, <code>"aa"</code>, <code>"aaa"</code>, etc.</li>
+              <li><code>"(ab)*"</code> → Matches <code>""</code>, <code>"ab"</code>, <code>"abab"</code>, <code>"ababab"</code>, etc.</li>
+          </ul>
+          
+          <p><strong>4. Grouping (Parentheses for Precedence Control)</strong></p>
+          <p><strong>Definition:</strong></p>
+          <p>Grouping is used to <strong>combine parts of a regular expression together</strong> so that operators apply to the whole group rather than just a single character. It ensures the correct <strong>precedence and scope</strong> of operations.</p>
+          <p><strong>Understanding Grouping:</strong></p>
+          <ul>
+              <li>Parentheses <code>()</code> are used to group expressions so that operations like concatenation, union, or repetition apply to the whole group instead of just a single character.</li>
+              <li>It is particularly useful when applying the <strong>Kleene star or union</strong> to more than one symbol.</li>
+          </ul>
+          <p><strong>Example Patterns:</strong></p>
+          <ul>
+              <li><code>"(ab|cd)*"</code> → Matches <code>""</code>, <code>"ab"</code>, <code>"cd"</code>, <code>"abab"</code>, <code>"cdcd"</code>, <code>"abcd"</code>, <code>"cdab"</code>, etc.</li>
+              <li><code>"(apple|banana)s?"</code> → Matches <code>"apple"</code>, <code>"apples"</code>, <code>"banana"</code>, <code>"bananas"</code>.</li>
+          </ul>
+          <p>These operations are the building blocks of regular expressions and <strong>define how patterns are structured</strong> in an automaton.</p>
+          <ul>
+              <li><strong>Concatenation</strong> ensures <em>order</em> in pattern matching.</li>
+              <li><strong>Union</strong> introduces <em>choices</em> in possible matches.</li>
+              <li><strong>Kleene star</strong> allows <em>repetition</em>, making patterns more flexible.</li>
+              <li><strong>Grouping</strong> ensures that operations apply to the correct part of the pattern, preserving <em>precedence</em>.</li>
+          </ul>
+          
+          <p><strong>Thompson's Algorithm</strong></p>
+          <p>Thompson's algorithm is a method for converting a regular expression into an equivalent nondeterministic finite automaton (NFA). The algorithm uses a set of rules to construct the NFA based on the structure of the regular expression, including handling concatenation, union, and the Kleene star. The resulting NFA can then be used to efficiently match the pattern defined by the original regular expression.</p>
+          
+          <p><b>Before Diving into the Construction Process, Let's Understand Some Essential Terms:</b></p>
+          
+          <p><strong>1. States</strong></p>
+          <p>A <strong>state</strong> represents a particular point in the execution of an automaton.</p>
+          <ul>
+              <li>In NFAs, there can be <strong>multiple states</strong> where a transition can occur for a given input.</li>
+              <li>Every automaton has an <strong>initial state</strong> (q₀) and one or more <strong>final states</strong> (F).</li>
+          </ul>
+          
+          <p><strong>2. Transitions</strong></p>
+          <p>A <strong>transition</strong> defines how the automaton moves from one state to another based on an input symbol.</p>
+          <ul>
+              <li>NFAs allow <strong>multiple transitions</strong> from a state for a single input.</li>
+              <li>They also include <strong>ε (epsilon) transitions</strong>, which move to another state without consuming input.</li>
+          </ul>
+          
+          <p><strong>3. Start and Final State</strong></p>
+          <ul>
+              <li><strong>Start State:</strong> The initial state from which the automaton begins processing the input string.</li>
+              <li><strong>Final State(s):</strong> The state(s) where the automaton halts and accepts a string if it reaches this state after processing the input.</li>
+          </ul>
+          
+          <p><strong>4. ε (Epsilon) Transitions</strong></p>
+          <p>An <strong>ε-transition</strong> is a transition that allows the automaton to move to another state <strong>without consuming any input character</strong>.</p>
+          
+          <p><strong>Rules to Convert RE to NFA</strong></p>
+          <p><strong>1. Symbol (a) (Basic RE)</strong></p>
+          <p> Create two states: a start state and an accept state (final).</p>
+          <p> Add a transition from the start state to the accept state labelled 'a'.</p>
+          <p> Mark the final/accept state.</p>
+          <p><strong>Example:</strong></p>
+          <p><strong>Regular Expression: "a"</strong></p>
+          <div><img src="./images/example1.png" alt="example1"></div>
+          
+          <p><strong>2. Concatenation (ab)</strong></p>
+          <!-- <p>Converting Regular Expression to NFA using Concatenation</p> -->
+          <p><strong>Create an NFA for the character 'a':</strong></p>
+          <p> Create a start state and an accept state.</p>
+          <p> Add a transition labeled 'a' from the start state to the accept state.</p>
+          <p><strong>Create an NFA for the character 'b':</strong></p>
+          <p> Create a start state and an accept state.</p>
+          <p> Add a transition labeled 'b' from the start state to the accept state.</p>
+          <p><strong>Connect the NFAs for 'a' and 'b' to represent the concatenation:</strong></p>
+          <p>- Merge the accept state of the NFA for 'a' with the start state of the NFA for 'b', and remove the accept state of the NFA for 'a'.</p>
+          <p><strong>Example:</strong></p>
+          <p><strong>Regular Expression: "ab"</strong></p>
+          <div><img src="./images/example2.png" alt="example2"></div>
+          
+          <p><strong>3. Union (a|b)</strong></p>
+          <p><strong>Creating NFA for Union Operation</strong></p>
+          <p><strong>States:</strong></p>
+          <p> New Start State</p>
+          <p> New Final State</p>
+          <p><strong>Transitions:</strong></p>
+          <p> Add ε-transitions from the New Start State to the start states of the existing NFAs.</p>
+          <p> Add ε-transitions from the accepting states of the existing NFAs to the New Final State.</p>
+          <p><strong>Note:</strong></p>
+          <p>When the union operation is performed, 4 ε-transitions are used in total:</p>
+          <p> 2 ε-transitions for connecting the New Start State to the existing NFAs</p>
+          <p> 2 ε-transitions for connecting the accepting states of the existing NFAs to the New Final State</p>
+          <p><strong>Example:</strong></p>
+          <p><strong>Regular Expression: "a|c"</strong></p>
+          <div><img src="./images/example3.png" alt="example3"></div>
+          
+          <p><strong>4. Kleene Closure (a)*</strong></p>
+          <p><strong>Converting Regular Expression to NFA using Kleene Closure</strong></p>
+          <p><strong>States:</strong></p>
+          <p> New Start State (S₀)</p>
+          <p> New Accept State (F₀)</p>
+          <p><strong>Transitions:</strong></p>
+          <p> Add ε-transition from New Start State (S₀) to the original start state of the expression.</p>
+          <p> Add ε-transition from the accept state of the expression back to the original start state.</p>
+          <p> Add ε-transition from original accept state to New Accept State (F₀).</p>
+          <p> Add ε-transition from New Start State (S₀) directly to New Accept State (F₀) for zero occurrences.</p>
+          <p><strong>Note:</strong></p>
+          <p>When applying the Kleene closure function, 4 ε-transitions are used in total:</p>
+          <p> 2 ε-transitions for connecting the New Start State to the original start state and back to the original start state</p>
+          <p> 1 ε-transition for connecting the original accept state to the New Accept State</p>
+          <p> 1 ε-transition from the New Start State directly to the New Accept State for zero occurrences</p>
+          <p><strong>Example:</strong></p>
+          <p><strong>Regular Expression: "a*"</strong></p>
+          <div><img src="./images/example4.png" alt="example4"></div>
+          </div>
+          <div class="bug-report-mobile">
+              <bug-report id="bug-report" title="[BUG REPORT] CONVERSION OF RE TO NFA" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;AMRT&quot;,&quot;expname&quot;:&quot;CONVERSION OF RE TO NFA&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" position="override" button_style="
+                          position: fixed; 
+                          bottom: 20px;
+                          right: 20px;
+                          z-index: 1;
+                          font-size: 0;
+                          padding: 25px;
+                          border-radius: 50%;
+                          border: none;
+                          background-color: #0fc0ff;
+                          background-image: url(data:image/png;base64,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);
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: 30px;
+                          filter: invert(1);">
+              </bug-report>
+          </div>        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fab fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fab fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fab fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fab fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+    <script src="./assets/js/toggleSidebar.js"></script>
+    <script src="./assets/js/event-handler.js"></script>
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  
+
+<script type="module" src="https://cdn.vlabs.ac.in/bug-report/vlabs-bug-report.js"></script><script type="module" src="/exp-convert-re-to-nfa-au/plugins/svc-rating/index.js"></script><script type="module" src="/exp-convert-re-to-nfa-au/plugins/svc-rating/config.js"></script><script type="module" src="https://apis.google.com/js/api.js"></script></body></html>
