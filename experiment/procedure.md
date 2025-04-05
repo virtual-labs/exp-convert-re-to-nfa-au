@@ -1,7 +1,7 @@
 <u><h3>Procedure</u></h3>
-<p>1. To convert a regular expression to a non-deterministic finite automaton (NFA), select a regular expression from the examples given and follow the instructions provided .</p>
+<p>1. To convert a regular expression(RE) to a non-deterministic finite automaton (NFA), select a regular expression from the examples given and follow the instructions provided .</p>
 <div><img src="./images/input.png" alt="input the examples"></div>
-<p>2. Read the instruction and click on the button below to generate nfa .</p>
+<p>2. Read the instruction and click on the button below to generate NFA .</p>
 <div><img src="./images/nfafora.png" alt="gernate nfa for a"></div></p>
 <p>3. Click on the 'info' button to view detailed steps for creating an NFA.</p>
 <div><img src="./images/infofora.png" alt="detailed step"></div></p>
