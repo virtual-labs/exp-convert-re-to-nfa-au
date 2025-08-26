@@ -2,72 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What does the term 'Regular Expression' (regex) refer to in the context of computer science?",
+      "question": "In automata theory, what does a Regular Expression (RE) represent?",
       "answers": {
-        "a": "A programming language feature for loops.",
-        "b": "A sequence of characters representing a search pattern.",
-        "c": "A type of data structure in databases.",
-        "d": "A mathematical equation for complex computations."
+        "a": "A symbolic notation used to describe patterns in strings.",
+        "b": "A table of states and transitions in an automaton.",
+        "c": "A set of rules for programming language syntax.",
+        "d": "A mathematical formula for calculating probabilities."
       },
       "explanations": {
-        "a": "Incorrect. Regular expressions are not related to programming language loops.",
-        "b": "Correct! A regular expression is a sequence of characters representing a search pattern.",
-        "c": "Regular expressions are not a type of data structure.",
-        "d": "Regular expressions are not mathematical equations for computations."
+        "a": "Correct! Regular expressions are symbolic notations used to define sets of strings over an alphabet.",
+        "b": "This describes a transition table, not a regular expression.",
+        "c": "Syntax rules are part of grammars, not directly the same as regular expressions.",
+        "d": "Regular expressions are unrelated to probability calculations."
+      },
+      "correctAnswer": "a",
+      "difficulty": "basic"
+    },
+    {
+      "question": "What does NFA stand for and how does it differ from DFA?",
+      "answers": {
+        "a": "Non-Finite Automaton; it has infinite states unlike DFA.",
+        "b": "Nondeterministic Finite Automaton; it can have multiple possible transitions for the same input symbol.",
+        "c": "Networked Finite Automaton; it processes inputs over a network.",
+        "d": "Numerical Finite Algorithm; it processes numbers deterministically."
+      },
+      "explanations": {
+        "a": "Incorrect. Both NFAs and DFAs have a finite number of states.",
+        "b": "Correct! An NFA can have multiple possible next states (or ε-moves) for the same input symbol, unlike DFA.",
+        "c": "No such concept exists in automata theory.",
+        "d": "Not a term used in automata theory."
       },
       "correctAnswer": "b",
       "difficulty": "basic"
     },
     {
-      "question": "What does 'NFA' stand for in the context of automata theory?",
+      "question": "In Thompson’s Construction, what is the purpose of using ε (epsilon) transitions?",
       "answers": {
-        "a": "Non-Finite Automaton.",
-        "b": "Nondeterministic Finite Automaton.",
-        "c": "Numbered Finite Algorithm.",
-        "d": "Networked File Archive."
+        "a": "To allow state changes without consuming any input symbol.",
+        "b": "To skip invalid input symbols.",
+        "c": "To store intermediate computation results.",
+        "d": "To represent a wildcard in regular expressions."
       },
       "explanations": {
-        "a": "Incorrect. 'NFA' does not stand for Non-Finite Automaton.",
-        "b": "Correct! 'NFA' stands for Nondeterministic Finite Automaton.",
-        "c": "There is no 'Numbered Finite Algorithm' in the context of automata theory.",
-        "d": "'Networked File Archive' is not related to automata theory."
+        "a": "Correct! ε-transitions connect fragments in Thompson’s Construction without consuming input.",
+        "b": "Epsilon transitions are not used to skip invalid inputs.",
+        "c": "NFAs do not store computation results in this way.",
+        "d": "A wildcard is different from an epsilon transition."
       },
-      "correctAnswer": "b",
-      "difficulty": "basic"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     },
     {
-      "question": "What is the primary difference between DFA (Deterministic Finite Automaton) and NFA (Nondeterministic Finite Automaton)?",
+      "question": "When converting the regular expression (a|b)*abb to an NFA using Thompson’s Construction, which operation is applied first?",
       "answers": {
-        "a": "DFA allows more than one transition for a given input symbol.",
-        "b": "NFA allows more than one transition for a given input symbol.",
-        "c": "DFA has an infinite number of states.",
-        "d": "NFA cannot recognize regular languages."
+        "a": "Union (alternation) of 'a' and 'b'.",
+        "b": "Concatenation of the sequence 'a', 'b', 'b'.",
+        "c": "Applying the Kleene star (*) to the alternation result.",
+        "d": "Direct conversion of the entire expression without decomposition."
       },
       "explanations": {
-        "a": "Incorrect. DFA has only one transition for a given input symbol.",
-        "b": "Correct! NFA allows more than one transition for a given input symbol.",
-        "c": "DFAs have a finite number of states.",
-        "d": "NFAs are capable of recognizing regular languages."
+        "a": "The alternation of 'a' and 'b' is done first for the (a|b) part.",
+        "b": "Concatenation happens later after applying Kleene star.",
+        "c": "Correct! After creating the alternation NFA for (a|b), the Kleene star is applied to that fragment.",
+        "d": "Thompson’s method always decomposes the expression into smaller fragments."
       },
-      "correctAnswer": "b",
-      "difficulty": "basic"
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     },
     {
-      "question": "In the context of regex to NFA conversion, what does the acronym 'NFA' represent?",
+      "question": "Why is Thompson’s Construction preferred for implementing regex in lexical analyzers?",
       "answers": {
-        "a": "Numerical File Analyzer.",
-        "b": "Nondeterministic Finite Automaton.",
-        "c": "Networked File Access.",
-        "d": "Non-Finite Algorithm."
+        "a": "It guarantees minimal DFA states.",
+        "b": "It produces an NFA that is simple to construct mechanically.",
+        "c": "It avoids the need for any state transitions.",
+        "d": "It works only for very short regular expressions."
       },
       "explanations": {
-        "a": "'Numerical File Analyzer' is not relevant to regex to NFA conversion.",
-        "b": "Correct! 'NFA' in this context stands for Nondeterministic Finite Automaton.",
-        "c": "'Networked File Access' is not related to regex to NFA conversion.",
-        "d": "'Non-Finite Algorithm' is not the meaning of 'NFA' in this context."
+        "a": "Incorrect. Thompson’s method does not guarantee minimal DFA states.",
+        "b": "Correct! Its step-by-step fragment construction makes it easy to implement automatically.",
+        "c": "NFAs still require transitions; ε-transitions are common in this method.",
+        "d": "It works for any valid regular expression, regardless of length."
       },
       "correctAnswer": "b",
-      "difficulty": "basic"
+      "difficulty": "intermediate"
     }
   ]
 }
