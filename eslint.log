@@ -1,0 +1,892 @@
+
+/home/runner/work/exp-convert-re-to-nfa-au/exp-convert-re-to-nfa-au/experiment/simulation/js/index-ABuFGtEG.js
+    138:28  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    347:13  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    475:37  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    566:37  warning  'setImmediate' is not defined                                              no-undef
+    824:5   warning  Unexpected combined character in character class                           no-misleading-character-class
+    921:12  warning  Unnecessary escape character: \-                                           no-useless-escape
+    957:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1091:11  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   1156:17  warning  Empty block statement                                                      no-empty
+   1240:8   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1333:5   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1335:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1341:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1341:38  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1371:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1440:34  warning  'MSApp' is not defined                                                     no-undef
+   1442:11  warning  'MSApp' is not defined                                                     no-undef
+   1526:51  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1533:11  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1672:7   warning  Expected to return a value in method 'get'                                 getter-return
+   1681:22  warning  'r' is defined but never used                                              no-unused-vars
+   1681:25  warning  'i' is defined but never used                                              no-unused-vars
+   1681:28  warning  'o' is defined but never used                                              no-unused-vars
+   1681:31  warning  's' is defined but never used                                              no-unused-vars
+   1681:34  warning  'a' is defined but never used                                              no-unused-vars
+   1681:37  warning  'l' is defined but never used                                              no-unused-vars
+   1698:13  warning  't' is defined but never used                                              no-unused-vars
+   1698:16  warning  'e' is defined but never used                                              no-unused-vars
+   1698:19  warning  'n' is defined but never used                                              no-unused-vars
+   1698:22  warning  'r' is defined but never used                                              no-unused-vars
+   1698:25  warning  'i' is defined but never used                                              no-unused-vars
+   1698:28  warning  'o' is defined but never used                                              no-unused-vars
+   1698:31  warning  's' is defined but never used                                              no-unused-vars
+   1698:34  warning  'a' is defined but never used                                              no-unused-vars
+   1698:37  warning  'l' is defined but never used                                              no-unused-vars
+   1701:13  warning  't' is defined but never used                                              no-unused-vars
+   1701:16  warning  'e' is defined but never used                                              no-unused-vars
+   1701:19  warning  'n' is defined but never used                                              no-unused-vars
+   1701:22  warning  'r' is defined but never used                                              no-unused-vars
+   1701:25  warning  'i' is defined but never used                                              no-unused-vars
+   1701:28  warning  'o' is defined but never used                                              no-unused-vars
+   1701:31  warning  's' is defined but never used                                              no-unused-vars
+   1701:34  warning  'a' is defined but never used                                              no-unused-vars
+   1701:37  warning  'l' is defined but never used                                              no-unused-vars
+   1822:13  warning  Empty block statement                                                      no-empty
+   2354:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   2373:39  warning  Invalid typeof comparison value                                            valid-typeof
+   2381:40  warning  Invalid typeof comparison value                                            valid-typeof
+   2516:56  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   2934:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3118:11  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   3134:11  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   3226:18  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   3326:9   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   3414:8   warning  Unexpected control character(s) in regular expression: \x00                no-control-regex
+   4020:13  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   4057:14  warning  Unexpected constant condition                                              no-constant-condition
+   4095:13  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   4148:15  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   4560:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   5003:15  warning  Empty block statement                                                      no-empty
+   5004:17  warning  Empty block statement                                                      no-empty
+   5449:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   5493:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   5955:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5955:37  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5958:26  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5965:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5972:11  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5977:18  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5978:25  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5981:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5995:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6133:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6146:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6231:21  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6244:25  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6756:13  warning  Empty block statement                                                      no-empty
+   6760:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   7068:40  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   7147:16  warning  'e' is defined but never used                                              no-unused-vars
+   7147:19  warning  'n' is defined but never used                                              no-unused-vars
+   7150:16  warning  'e' is defined but never used                                              no-unused-vars
+   7150:19  warning  'n' is defined but never used                                              no-unused-vars
+   7461:12  warning  Unexpected constant condition                                              no-constant-condition
+   7812:12  warning  Unexpected constant condition                                              no-constant-condition
+   7834:10  warning  Unexpected constant condition                                              no-constant-condition
+   8060:19  warning  Empty block statement                                                      no-empty
+   8882:1   warning  'V3' is a function                                                         no-func-assign
+   8883:1   warning  'G3' is a function                                                         no-func-assign
+   8918:12  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+   8922:13  warning  Empty block statement                                                      no-empty
+   9014:14  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+   9018:7   warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  14465:26  warning  Unnecessary escape character: \)                                           no-useless-escape
+  14489:25  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14489:39  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14489:53  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14507:49  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14507:69  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14524:23  warning  Unnecessary escape character: \#                                           no-useless-escape
+  22891:13  warning  'm' is assigned a value but never used                                     no-unused-vars
+  26234:11  warning  Empty block statement                                                      no-empty
+  28174:22  warning  'XRWebGLLayer' is not defined                                              no-undef
+  28197:22  warning  'XRWebGLBinding' is not defined                                            no-undef
+  30041:9   warning  '__THREE_DEVTOOLS__' is not defined                                        no-undef
+  30141:9   warning  '__THREE_DEVTOOLS__' is not defined                                        no-undef
+  37304:42  warning  Unnecessary escape character: \/                                           no-useless-escape
+  37858:9   warning  Unexpected lexical declaration in case block                               no-case-declarations
+  38755:17  warning  Unnecessary escape character: \/                                           no-useless-escape
+  41053:3   warning  '__THREE_DEVTOOLS__' is not defined                                        no-undef
+  41671:37  warning  'setImmediate' is not defined                                              no-undef
+  41980:19  warning  Empty block statement                                                      no-empty
+  42301:13  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  42579:15  warning  Empty block statement                                                      no-empty
+  42847:15  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  42884:16  warning  Unexpected constant condition                                              no-constant-condition
+  42922:15  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  42978:17  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  43986:17  warning  Empty block statement                                                      no-empty
+  43987:19  warning  Empty block statement                                                      no-empty
+  44898:14  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  44944:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  45528:15  warning  Empty block statement                                                      no-empty
+  45942:18  warning  'd' is defined but never used                                              no-unused-vars
+  45942:21  warning  'w' is defined but never used                                              no-unused-vars
+  45945:18  warning  'd' is defined but never used                                              no-unused-vars
+  45945:21  warning  'w' is defined but never used                                              no-unused-vars
+  46374:14  warning  Unexpected constant condition                                              no-constant-condition
+  46721:14  warning  Unexpected constant condition                                              no-constant-condition
+  46743:12  warning  Unexpected constant condition                                              no-constant-condition
+  46970:21  warning  Empty block statement                                                      no-empty
+  47824:17  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  47829:19  warning  Empty block statement                                                      no-empty
+  48033:19  warning  Empty block statement                                                      no-empty
+  48110:43  warning  'g' is assigned a value but never used                                     no-unused-vars
+  48111:39  warning  'b' is assigned a value but never used                                     no-unused-vars
+  48122:22  warning  'h' is defined but never used                                              no-unused-vars
+  48122:25  warning  'p' is defined but never used                                              no-unused-vars
+  48122:28  warning  'm' is defined but never used                                              no-unused-vars
+  48175:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  48309:15  warning  'e' is defined but never used                                              no-unused-vars
+  48309:23  warning  'n' is defined but never used                                              no-unused-vars
+  48309:31  warning  'r' is defined but never used                                              no-unused-vars
+  48310:15  warning  'o' is assigned a value but never used                                     no-unused-vars
+  48310:23  warning  's' is assigned a value but never used                                     no-unused-vars
+  48310:31  warning  'a' is assigned a value but never used                                     no-unused-vars
+  48320:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  49233:21  warning  Empty block statement                                                      no-empty
+  49245:6   warning  'mn' is a function                                                         no-func-assign
+  49435:22  warning  'n' is already defined                                                     no-redeclare
+  49560:19  warning  'i' is defined but never used                                              no-unused-vars
+  49838:34  warning  'h' is assigned a value but never used                                     no-unused-vars
+  51798:7   warning  'importScripts' is not defined                                             no-undef
+  52231:13  warning  'Ae' is assigned a value but never used                                    no-unused-vars
+  52232:11  warning  'Re' is assigned a value but never used                                    no-unused-vars
+  52233:11  warning  'ye' is assigned a value but never used                                    no-unused-vars
+  52234:11  warning  'q' is assigned a value but never used                                     no-unused-vars
+  52235:11  warning  'xe' is assigned a value but never used                                    no-unused-vars
+  52236:11  warning  'he' is assigned a value but never used                                    no-unused-vars
+  52531:40  warning  'ke' is defined but never used                                             no-unused-vars
+  52693:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  53588:7   warning  Unexpected combined character in character class                           no-misleading-character-class
+  53641:21  warning  'b' is assigned a value but never used                                     no-unused-vars
+  53814:30  warning  'Le' is defined but never used                                             no-unused-vars
+  53898:31  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  54019:17  warning  'T' is defined but never used                                              no-unused-vars
+  54584:47  warning  's' is defined but never used                                              no-unused-vars
+  55330:41  warning  's' is defined but never used                                              no-unused-vars
+  55372:41  warning  's' is defined but never used                                              no-unused-vars
+  55443:43  warning  's' is defined but never used                                              no-unused-vars
+  55443:46  warning  'a' is defined but never used                                              no-unused-vars
+  55497:41  warning  's' is defined but never used                                              no-unused-vars
+  55536:41  warning  's' is defined but never used                                              no-unused-vars
+  55610:20  warning  'L' is already defined                                                     no-redeclare
+  55612:20  warning  'L' is already defined                                                     no-redeclare
+  55614:20  warning  'L' is already defined                                                     no-redeclare
+  55615:20  warning  'L' is already defined                                                     no-redeclare
+  55625:44  warning  's' is defined but never used                                              no-unused-vars
+  55743:41  warning  's' is defined but never used                                              no-unused-vars
+  56407:11  warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  56577:13  warning  Empty block statement                                                      no-empty
+  56791:27  warning  'Z' is defined but never used                                              no-unused-vars
+  56882:25  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  57035:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  57560:33  warning  's' is defined but never used                                              no-unused-vars
+  57563:26  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  57567:32  warning  's' is defined but never used                                              no-unused-vars
+  57694:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  58164:19  warning  'e' is defined but never used                                              no-unused-vars
+  58733:26  warning  'S' is assigned a value but never used                                     no-unused-vars
+  58864:25  warning  'r' is assigned a value but never used                                     no-unused-vars
+  58865:28  warning  'i' is assigned a value but never used                                     no-unused-vars
+  58866:29  warning  'o' is assigned a value but never used                                     no-unused-vars
+  59208:14  warning  'e' is defined but never used                                              no-unused-vars
+  59288:24  warning  'e' is defined but never used                                              no-unused-vars
+  61005:21  warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  61018:21  warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  61031:21  warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  61117:21  warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  61638:21  warning  't' is assigned a value but never used                                     no-unused-vars
+  61868:18  warning  'e' is defined but never used                                              no-unused-vars
+  61869:13  warning  't' is defined but never used                                              no-unused-vars
+  61869:16  warning  'e' is defined but never used                                              no-unused-vars
+  61870:13  warning  't' is defined but never used                                              no-unused-vars
+  61870:16  warning  'e' is defined but never used                                              no-unused-vars
+  61889:6   warning  'Qt' is a function                                                         no-func-assign
+  62102:35  warning  'global' is not defined                                                    no-undef
+  62103:9   warning  'global' is not defined                                                    no-undef
+  62489:6   warning  'Xw' is a function                                                         no-func-assign
+  62508:6   warning  'cl' is a function                                                         no-func-assign
+  62521:11  warning  Empty block statement                                                      no-empty
+  62522:11  warning  'Gy' is a function                                                         no-func-assign
+  62777:11  warning  Unsafe usage of ReturnStatement                                            no-unsafe-finally
+  62779:16  warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  62807:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  62809:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  63858:7   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  63884:7   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  63891:11  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  63904:11  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  63939:7   warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  63987:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  64051:26  warning  Unnecessary escape character: \:                                           no-useless-escape
+  64671:55  warning  'r' is assigned a value but never used                                     no-unused-vars
+  66002:21  warning  'r' is already defined                                                     no-redeclare
+  66166:21  warning  'r' is already defined                                                     no-redeclare
+  67447:13  warning  't' is defined but never used                                              no-unused-vars
+  67573:21  warning  'r' is already defined                                                     no-redeclare
+  67598:42  warning  'n' is assigned a value but never used                                     no-unused-vars
+  67598:69  warning  'i' is assigned a value but never used                                     no-unused-vars
+  68236:3   warning  'oi' is a function                                                         no-func-assign
+  68266:5   warning  'c' is a function                                                          no-func-assign
+  68670:9   warning  Empty block statement                                                      no-empty
+  68691:13  warning  't' is defined but never used                                              no-unused-vars
+  68696:6   warning  'gb' is a function                                                         no-func-assign
+  68723:13  warning  't' is defined but never used                                              no-unused-vars
+  68728:6   warning  'vb' is a function                                                         no-func-assign
+  68741:15  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  69032:21  warning  'r' is already defined                                                     no-redeclare
+  69769:21  warning  'r' is already defined                                                     no-redeclare
+  70014:6   warning  'uc' is a function                                                         no-func-assign
+  70034:6   warning  '_b' is a function                                                         no-func-assign
+  70044:6   warning  'lp' is a function                                                         no-func-assign
+  70067:13  warning  't' is defined but never used                                              no-unused-vars
+  70067:16  warning  'e' is defined but never used                                              no-unused-vars
+  70067:19  warning  'n' is defined but never used                                              no-unused-vars
+  70070:10  warning  'kv' is a function                                                         no-func-assign
+  70071:10  warning  'kv' is a function                                                         no-func-assign
+  70087:6   warning  'Sb' is a function                                                         no-func-assign
+  70153:11  warning  Unreachable code                                                           no-unreachable
+  70294:13  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70305:11  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70441:17  warning  Unnecessary escape character: \[                                           no-useless-escape
+  70441:42  warning  Unnecessary escape character: \[                                           no-useless-escape
+  70568:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70582:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70591:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70601:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70610:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70619:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70629:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70639:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70649:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70659:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70668:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70677:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70697:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70706:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  70962:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  71045:13  warning  't' is defined but never used                                              no-unused-vars
+  71045:16  warning  'e' is defined but never used                                              no-unused-vars
+  71045:19  warning  'n' is defined but never used                                              no-unused-vars
+  71045:22  warning  'r' is defined but never used                                              no-unused-vars
+  71045:25  warning  'i' is defined but never used                                              no-unused-vars
+  71050:6   warning  'Cb' is a function                                                         no-func-assign
+  71098:17  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  71211:19  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  71228:19  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  71235:26  warning  'h' is defined but never used                                              no-unused-vars
+  71235:29  warning  'p' is defined but never used                                              no-unused-vars
+  71257:13  warning  't' is defined but never used                                              no-unused-vars
+  71262:6   warning  'Tb' is a function                                                         no-func-assign
+  71286:13  warning  't' is defined but never used                                              no-unused-vars
+  71291:6   warning  'Ab' is a function                                                         no-func-assign
+  73505:21  warning  'r' is already defined                                                     no-redeclare
+  73713:21  warning  'r' is already defined                                                     no-redeclare
+  75181:21  warning  'r' is already defined                                                     no-redeclare
+  75419:21  warning  'r' is already defined                                                     no-redeclare
+  75496:21  warning  'r' is already defined                                                     no-redeclare
+  75811:17  warning  Empty block statement                                                      no-empty
+  76107:23  warning  'r' is already defined                                                     no-redeclare
+  76232:17  warning  'a' is assigned a value but never used                                     no-unused-vars
+
+/home/runner/work/exp-convert-re-to-nfa-au/exp-convert-re-to-nfa-au/experiment/simulation/js/index-ExvYKrOl.js
+    138:28  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    347:13  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    475:37  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    566:37  warning  'setImmediate' is not defined                                              no-undef
+    824:5   warning  Unexpected combined character in character class                           no-misleading-character-class
+    921:12  warning  Unnecessary escape character: \-                                           no-useless-escape
+    957:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1091:11  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   1156:17  warning  Empty block statement                                                      no-empty
+   1240:8   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1333:5   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1335:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1341:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1341:38  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1371:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1440:34  warning  'MSApp' is not defined                                                     no-undef
+   1442:11  warning  'MSApp' is not defined                                                     no-undef
+   1526:51  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1533:11  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1672:7   warning  Expected to return a value in method 'get'                                 getter-return
+   1681:22  warning  'r' is defined but never used                                              no-unused-vars
+   1681:25  warning  'i' is defined but never used                                              no-unused-vars
+   1681:28  warning  'o' is defined but never used                                              no-unused-vars
+   1681:31  warning  'a' is defined but never used                                              no-unused-vars
+   1681:34  warning  's' is defined but never used                                              no-unused-vars
+   1681:37  warning  'l' is defined but never used                                              no-unused-vars
+   1698:13  warning  't' is defined but never used                                              no-unused-vars
+   1698:16  warning  'e' is defined but never used                                              no-unused-vars
+   1698:19  warning  'n' is defined but never used                                              no-unused-vars
+   1698:22  warning  'r' is defined but never used                                              no-unused-vars
+   1698:25  warning  'i' is defined but never used                                              no-unused-vars
+   1698:28  warning  'o' is defined but never used                                              no-unused-vars
+   1698:31  warning  'a' is defined but never used                                              no-unused-vars
+   1698:34  warning  's' is defined but never used                                              no-unused-vars
+   1698:37  warning  'l' is defined but never used                                              no-unused-vars
+   1701:13  warning  't' is defined but never used                                              no-unused-vars
+   1701:16  warning  'e' is defined but never used                                              no-unused-vars
+   1701:19  warning  'n' is defined but never used                                              no-unused-vars
+   1701:22  warning  'r' is defined but never used                                              no-unused-vars
+   1701:25  warning  'i' is defined but never used                                              no-unused-vars
+   1701:28  warning  'o' is defined but never used                                              no-unused-vars
+   1701:31  warning  'a' is defined but never used                                              no-unused-vars
+   1701:34  warning  's' is defined but never used                                              no-unused-vars
+   1701:37  warning  'l' is defined but never used                                              no-unused-vars
+   1822:13  warning  Empty block statement                                                      no-empty
+   2354:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   2373:39  warning  Invalid typeof comparison value                                            valid-typeof
+   2381:40  warning  Invalid typeof comparison value                                            valid-typeof
+   2516:56  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   2934:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3118:11  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   3134:11  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   3226:18  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   3326:9   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   3414:8   warning  Unexpected control character(s) in regular expression: \x00                no-control-regex
+   4020:13  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   4057:14  warning  Unexpected constant condition                                              no-constant-condition
+   4095:13  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   4148:15  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   4560:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   5003:15  warning  Empty block statement                                                      no-empty
+   5004:17  warning  Empty block statement                                                      no-empty
+   5449:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   5493:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   5955:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5955:37  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5958:26  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5965:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5972:11  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5977:18  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5978:25  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5981:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5995:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6133:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6146:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6231:21  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6244:25  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6756:13  warning  Empty block statement                                                      no-empty
+   6760:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   7068:40  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   7147:16  warning  'e' is defined but never used                                              no-unused-vars
+   7147:19  warning  'n' is defined but never used                                              no-unused-vars
+   7150:16  warning  'e' is defined but never used                                              no-unused-vars
+   7150:19  warning  'n' is defined but never used                                              no-unused-vars
+   7461:12  warning  Unexpected constant condition                                              no-constant-condition
+   7812:12  warning  Unexpected constant condition                                              no-constant-condition
+   7834:10  warning  Unexpected constant condition                                              no-constant-condition
+   8060:19  warning  Empty block statement                                                      no-empty
+   8882:1   warning  'rO' is a function                                                         no-func-assign
+   8883:1   warning  'iO' is a function                                                         no-func-assign
+   8918:12  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+   8922:13  warning  Empty block statement                                                      no-empty
+   9014:14  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+   9018:7   warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  14466:26  warning  Unnecessary escape character: \)                                           no-useless-escape
+  14490:25  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14490:39  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14490:53  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14508:49  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14508:69  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14525:23  warning  Unnecessary escape character: \#                                           no-useless-escape
+  26233:11  warning  Empty block statement                                                      no-empty
+  28173:22  warning  'XRWebGLLayer' is not defined                                              no-undef
+  28196:22  warning  'XRWebGLBinding' is not defined                                            no-undef
+  30044:9   warning  '__THREE_DEVTOOLS__' is not defined                                        no-undef
+  30144:9   warning  '__THREE_DEVTOOLS__' is not defined                                        no-undef
+  37307:42  warning  Unnecessary escape character: \/                                           no-useless-escape
+  37861:9   warning  Unexpected lexical declaration in case block                               no-case-declarations
+  38758:17  warning  Unnecessary escape character: \/                                           no-useless-escape
+  41056:3   warning  '__THREE_DEVTOOLS__' is not defined                                        no-undef
+  41719:37  warning  'setImmediate' is not defined                                              no-undef
+  42028:19  warning  Empty block statement                                                      no-empty
+  42349:13  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  42627:15  warning  Empty block statement                                                      no-empty
+  42895:15  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  42932:16  warning  Unexpected constant condition                                              no-constant-condition
+  42970:15  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  43026:17  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  44034:17  warning  Empty block statement                                                      no-empty
+  44035:19  warning  Empty block statement                                                      no-empty
+  44946:14  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  44992:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  45576:15  warning  Empty block statement                                                      no-empty
+  45990:18  warning  'h' is defined but never used                                              no-unused-vars
+  45990:21  warning  'b' is defined but never used                                              no-unused-vars
+  45993:18  warning  'h' is defined but never used                                              no-unused-vars
+  45993:21  warning  'b' is defined but never used                                              no-unused-vars
+  46422:14  warning  Unexpected constant condition                                              no-constant-condition
+  46769:14  warning  Unexpected constant condition                                              no-constant-condition
+  46791:12  warning  Unexpected constant condition                                              no-constant-condition
+  47018:21  warning  Empty block statement                                                      no-empty
+  47872:17  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  47877:19  warning  Empty block statement                                                      no-empty
+  48038:19  warning  Empty block statement                                                      no-empty
+  48112:43  warning  'g' is assigned a value but never used                                     no-unused-vars
+  48113:39  warning  'w' is assigned a value but never used                                     no-unused-vars
+  48124:22  warning  'd' is defined but never used                                              no-unused-vars
+  48124:25  warning  'p' is defined but never used                                              no-unused-vars
+  48124:28  warning  'm' is defined but never used                                              no-unused-vars
+  48177:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  48311:15  warning  'e' is defined but never used                                              no-unused-vars
+  48311:23  warning  'n' is defined but never used                                              no-unused-vars
+  48311:31  warning  'r' is defined but never used                                              no-unused-vars
+  48312:15  warning  'o' is assigned a value but never used                                     no-unused-vars
+  48312:23  warning  'a' is assigned a value but never used                                     no-unused-vars
+  48312:31  warning  's' is assigned a value but never used                                     no-unused-vars
+  48321:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  49257:21  warning  Empty block statement                                                      no-empty
+  49284:19  warning  'i' is defined but never used                                              no-unused-vars
+  49505:22  warning  'n' is already defined                                                     no-redeclare
+  49840:34  warning  'd' is assigned a value but never used                                     no-unused-vars
+  49998:6   warning  'Et' is a function                                                         no-func-assign
+  52284:7   warning  'importScripts' is not defined                                             no-undef
+  53018:40  warning  'Re' is defined but never used                                             no-unused-vars
+  53180:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  54547:47  warning  'a' is defined but never used                                              no-unused-vars
+  55011:41  warning  'a' is defined but never used                                              no-unused-vars
+  55011:44  warning  's' is defined but never used                                              no-unused-vars
+  55381:41  warning  'a' is defined but never used                                              no-unused-vars
+  55423:41  warning  'a' is defined but never used                                              no-unused-vars
+  55494:43  warning  'a' is defined but never used                                              no-unused-vars
+  55494:46  warning  's' is defined but never used                                              no-unused-vars
+  55548:41  warning  'a' is defined but never used                                              no-unused-vars
+  55587:41  warning  'a' is defined but never used                                              no-unused-vars
+  55661:20  warning  'I' is already defined                                                     no-redeclare
+  55663:20  warning  'I' is already defined                                                     no-redeclare
+  55665:20  warning  'I' is already defined                                                     no-redeclare
+  55666:20  warning  'I' is already defined                                                     no-redeclare
+  55676:44  warning  'a' is defined but never used                                              no-unused-vars
+  55794:41  warning  'a' is defined but never used                                              no-unused-vars
+  56397:11  warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  56564:13  warning  Empty block statement                                                      no-empty
+  57402:7   warning  Unexpected combined character in character class                           no-misleading-character-class
+  57437:21  warning  'g' is assigned a value but never used                                     no-unused-vars
+  57671:32  warning  'Ke' is defined but never used                                             no-unused-vars
+  57756:33  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  57906:17  warning  'g' is defined but never used                                              no-unused-vars
+  58039:25  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  58196:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  58708:33  warning  'a' is defined but never used                                              no-unused-vars
+  58845:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  59317:19  warning  'e' is defined but never used                                              no-unused-vars
+  59886:26  warning  'S' is assigned a value but never used                                     no-unused-vars
+  60017:25  warning  'r' is assigned a value but never used                                     no-unused-vars
+  60018:28  warning  'i' is assigned a value but never used                                     no-unused-vars
+  60019:29  warning  'o' is assigned a value but never used                                     no-unused-vars
+  60361:14  warning  'e' is defined but never used                                              no-unused-vars
+  60441:24  warning  'e' is defined but never used                                              no-unused-vars
+  60476:18  warning  'Zse' is assigned a value but never used                                   no-unused-vars
+  62504:21  warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  63223:21  warning  't' is assigned a value but never used                                     no-unused-vars
+  63453:18  warning  'e' is defined but never used                                              no-unused-vars
+  63454:13  warning  't' is defined but never used                                              no-unused-vars
+  63454:16  warning  'e' is defined but never used                                              no-unused-vars
+  63455:13  warning  't' is defined but never used                                              no-unused-vars
+  63455:16  warning  'e' is defined but never used                                              no-unused-vars
+  63474:6   warning  'un' is a function                                                         no-func-assign
+  63686:35  warning  'global' is not defined                                                    no-undef
+  63687:9   warning  'global' is not defined                                                    no-undef
+  64073:6   warning  'oE' is a function                                                         no-func-assign
+  64092:6   warning  'Gl' is a function                                                         no-func-assign
+  64105:11  warning  Empty block statement                                                      no-empty
+  64106:11  warning  'V1' is a function                                                         no-func-assign
+  64363:11  warning  Unsafe usage of ReturnStatement                                            no-unsafe-finally
+  64365:16  warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  64393:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  64395:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  65444:7   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  65470:7   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  65477:11  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  65490:11  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  65525:7   warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  65573:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  65637:26  warning  Unnecessary escape character: \:                                           no-useless-escape
+  66285:55  warning  'r' is assigned a value but never used                                     no-unused-vars
+  67631:21  warning  'r' is already defined                                                     no-redeclare
+  67795:21  warning  'r' is already defined                                                     no-redeclare
+  69094:13  warning  't' is defined but never used                                              no-unused-vars
+  69220:21  warning  'r' is already defined                                                     no-redeclare
+  69245:42  warning  'n' is assigned a value but never used                                     no-unused-vars
+  69245:69  warning  'i' is assigned a value but never used                                     no-unused-vars
+  70125:4   warning  'di' is a function                                                         no-func-assign
+  70177:28  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  70179:21  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  70216:34  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  70266:6   warning  'p2' is a function                                                         no-func-assign
+  70408:11  warning  'vi' is a function                                                         no-func-assign
+  70460:9   warning  Empty block statement                                                      no-empty
+  70481:14  warning  't' is defined but never used                                              no-unused-vars
+  70486:6   warning  'AE' is a function                                                         no-func-assign
+  70513:14  warning  't' is defined but never used                                              no-unused-vars
+  70518:6   warning  'RE' is a function                                                         no-func-assign
+  70531:15  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  70823:21  warning  'r' is already defined                                                     no-redeclare
+  71560:21  warning  'r' is already defined                                                     no-redeclare
+  71755:17  warning  'e' is defined but never used                                              no-unused-vars
+  72025:6   warning  'Gc' is a function                                                         no-func-assign
+  72045:6   warning  'OE' is a function                                                         no-func-assign
+  72055:6   warning  'rm' is a function                                                         no-func-assign
+  72078:13  warning  't' is defined but never used                                              no-unused-vars
+  72078:16  warning  'e' is defined but never used                                              no-unused-vars
+  72078:19  warning  'n' is defined but never used                                              no-unused-vars
+  72081:10  warning  'O0' is a function                                                         no-func-assign
+  72082:10  warning  'O0' is a function                                                         no-func-assign
+  72098:6   warning  'NE' is a function                                                         no-func-assign
+  72164:11  warning  Unreachable code                                                           no-unreachable
+  72305:13  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72316:11  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72452:17  warning  Unnecessary escape character: \[                                           no-useless-escape
+  72452:42  warning  Unnecessary escape character: \[                                           no-useless-escape
+  72579:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72593:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72602:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72612:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72621:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72630:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72640:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72650:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72660:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72670:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72679:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72688:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72708:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72717:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72973:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  73056:13  warning  't' is defined but never used                                              no-unused-vars
+  73056:16  warning  'e' is defined but never used                                              no-unused-vars
+  73056:19  warning  'n' is defined but never used                                              no-unused-vars
+  73056:22  warning  'r' is defined but never used                                              no-unused-vars
+  73056:25  warning  'i' is defined but never used                                              no-unused-vars
+  73061:6   warning  'kE' is a function                                                         no-func-assign
+  73109:17  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  73224:19  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  73241:19  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  73248:26  warning  'd' is defined but never used                                              no-unused-vars
+  73248:29  warning  'p' is defined but never used                                              no-unused-vars
+  73270:14  warning  't' is defined but never used                                              no-unused-vars
+  73275:6   warning  'BE' is a function                                                         no-func-assign
+  73299:14  warning  't' is defined but never used                                              no-unused-vars
+  73304:6   warning  'HE' is a function                                                         no-func-assign
+  76017:23  warning  Unnecessary escape character: \%                                           no-useless-escape
+  77604:21  warning  'r' is already defined                                                     no-redeclare
+  80044:21  warning  'r' is already defined                                                     no-redeclare
+  80252:21  warning  'r' is already defined                                                     no-redeclare
+  83146:21  warning  'r' is already defined                                                     no-redeclare
+  83830:21  warning  'r' is already defined                                                     no-redeclare
+  83967:21  warning  'r' is already defined                                                     no-redeclare
+  84297:21  warning  'r' is already defined                                                     no-redeclare
+  84471:21  warning  'r' is already defined                                                     no-redeclare
+  84633:21  warning  'r' is already defined                                                     no-redeclare
+  85286:21  warning  'r' is already defined                                                     no-redeclare
+  85524:21  warning  'r' is already defined                                                     no-redeclare
+  85602:21  warning  'r' is already defined                                                     no-redeclare
+  85917:17  warning  Empty block statement                                                      no-empty
+  86213:23  warning  'r' is already defined                                                     no-redeclare
+
+/home/runner/work/exp-convert-re-to-nfa-au/exp-convert-re-to-nfa-au/experiment/simulation/js/index-b1qcaRcb.js
+    138:28  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    347:13  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    475:37  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    566:37  warning  'setImmediate' is not defined                                              no-undef
+    824:5   warning  Unexpected combined character in character class                           no-misleading-character-class
+    921:12  warning  Unnecessary escape character: \-                                           no-useless-escape
+    957:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1091:11  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   1156:17  warning  Empty block statement                                                      no-empty
+   1240:8   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1333:5   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1335:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1341:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1341:38  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1371:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1440:34  warning  'MSApp' is not defined                                                     no-undef
+   1442:11  warning  'MSApp' is not defined                                                     no-undef
+   1526:51  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1533:11  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1672:7   warning  Expected to return a value in method 'get'                                 getter-return
+   1681:22  warning  'r' is defined but never used                                              no-unused-vars
+   1681:25  warning  'i' is defined but never used                                              no-unused-vars
+   1681:28  warning  'o' is defined but never used                                              no-unused-vars
+   1681:31  warning  'a' is defined but never used                                              no-unused-vars
+   1681:34  warning  's' is defined but never used                                              no-unused-vars
+   1681:37  warning  'l' is defined but never used                                              no-unused-vars
+   1698:13  warning  't' is defined but never used                                              no-unused-vars
+   1698:16  warning  'e' is defined but never used                                              no-unused-vars
+   1698:19  warning  'n' is defined but never used                                              no-unused-vars
+   1698:22  warning  'r' is defined but never used                                              no-unused-vars
+   1698:25  warning  'i' is defined but never used                                              no-unused-vars
+   1698:28  warning  'o' is defined but never used                                              no-unused-vars
+   1698:31  warning  'a' is defined but never used                                              no-unused-vars
+   1698:34  warning  's' is defined but never used                                              no-unused-vars
+   1698:37  warning  'l' is defined but never used                                              no-unused-vars
+   1701:13  warning  't' is defined but never used                                              no-unused-vars
+   1701:16  warning  'e' is defined but never used                                              no-unused-vars
+   1701:19  warning  'n' is defined but never used                                              no-unused-vars
+   1701:22  warning  'r' is defined but never used                                              no-unused-vars
+   1701:25  warning  'i' is defined but never used                                              no-unused-vars
+   1701:28  warning  'o' is defined but never used                                              no-unused-vars
+   1701:31  warning  'a' is defined but never used                                              no-unused-vars
+   1701:34  warning  's' is defined but never used                                              no-unused-vars
+   1701:37  warning  'l' is defined but never used                                              no-unused-vars
+   1822:13  warning  Empty block statement                                                      no-empty
+   2354:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   2373:39  warning  Invalid typeof comparison value                                            valid-typeof
+   2381:40  warning  Invalid typeof comparison value                                            valid-typeof
+   2516:56  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   2934:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3118:11  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   3134:11  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   3226:18  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   3326:9   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   3414:8   warning  Unexpected control character(s) in regular expression: \x00                no-control-regex
+   4020:13  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   4057:14  warning  Unexpected constant condition                                              no-constant-condition
+   4095:13  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   4148:15  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   4560:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   5003:15  warning  Empty block statement                                                      no-empty
+   5004:17  warning  Empty block statement                                                      no-empty
+   5449:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   5493:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   5955:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5955:37  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5958:26  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5965:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5972:11  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5977:18  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5978:25  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5981:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5995:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6133:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6146:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6231:21  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6244:25  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   6756:13  warning  Empty block statement                                                      no-empty
+   6760:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+   7068:40  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   7147:16  warning  'e' is defined but never used                                              no-unused-vars
+   7147:19  warning  'n' is defined but never used                                              no-unused-vars
+   7150:16  warning  'e' is defined but never used                                              no-unused-vars
+   7150:19  warning  'n' is defined but never used                                              no-unused-vars
+   7461:12  warning  Unexpected constant condition                                              no-constant-condition
+   7812:12  warning  Unexpected constant condition                                              no-constant-condition
+   7834:10  warning  Unexpected constant condition                                              no-constant-condition
+   8060:19  warning  Empty block statement                                                      no-empty
+   8882:1   warning  'rO' is a function                                                         no-func-assign
+   8883:1   warning  'iO' is a function                                                         no-func-assign
+   8918:12  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+   8922:13  warning  Empty block statement                                                      no-empty
+   9014:14  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+   9018:7   warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  14466:26  warning  Unnecessary escape character: \)                                           no-useless-escape
+  14490:25  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14490:39  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14490:53  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14508:49  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14508:69  warning  Unnecessary escape character: \%                                           no-useless-escape
+  14525:23  warning  Unnecessary escape character: \#                                           no-useless-escape
+  26233:11  warning  Empty block statement                                                      no-empty
+  28173:22  warning  'XRWebGLLayer' is not defined                                              no-undef
+  28196:22  warning  'XRWebGLBinding' is not defined                                            no-undef
+  30044:9   warning  '__THREE_DEVTOOLS__' is not defined                                        no-undef
+  30144:9   warning  '__THREE_DEVTOOLS__' is not defined                                        no-undef
+  37307:42  warning  Unnecessary escape character: \/                                           no-useless-escape
+  37861:9   warning  Unexpected lexical declaration in case block                               no-case-declarations
+  38758:17  warning  Unnecessary escape character: \/                                           no-useless-escape
+  41056:3   warning  '__THREE_DEVTOOLS__' is not defined                                        no-undef
+  41719:37  warning  'setImmediate' is not defined                                              no-undef
+  42028:19  warning  Empty block statement                                                      no-empty
+  42349:13  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  42627:15  warning  Empty block statement                                                      no-empty
+  42895:15  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  42932:16  warning  Unexpected constant condition                                              no-constant-condition
+  42970:15  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  43026:17  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  44034:17  warning  Empty block statement                                                      no-empty
+  44035:19  warning  Empty block statement                                                      no-empty
+  44946:14  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  44992:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  45576:15  warning  Empty block statement                                                      no-empty
+  45990:18  warning  'h' is defined but never used                                              no-unused-vars
+  45990:21  warning  'b' is defined but never used                                              no-unused-vars
+  45993:18  warning  'h' is defined but never used                                              no-unused-vars
+  45993:21  warning  'b' is defined but never used                                              no-unused-vars
+  46422:14  warning  Unexpected constant condition                                              no-constant-condition
+  46769:14  warning  Unexpected constant condition                                              no-constant-condition
+  46791:12  warning  Unexpected constant condition                                              no-constant-condition
+  47018:21  warning  Empty block statement                                                      no-empty
+  47872:17  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  47877:19  warning  Empty block statement                                                      no-empty
+  48038:19  warning  Empty block statement                                                      no-empty
+  48112:43  warning  'g' is assigned a value but never used                                     no-unused-vars
+  48113:39  warning  'w' is assigned a value but never used                                     no-unused-vars
+  48124:22  warning  'd' is defined but never used                                              no-unused-vars
+  48124:25  warning  'p' is defined but never used                                              no-unused-vars
+  48124:28  warning  'm' is defined but never used                                              no-unused-vars
+  48177:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  48311:15  warning  'e' is defined but never used                                              no-unused-vars
+  48311:23  warning  'n' is defined but never used                                              no-unused-vars
+  48311:31  warning  'r' is defined but never used                                              no-unused-vars
+  48312:15  warning  'o' is assigned a value but never used                                     no-unused-vars
+  48312:23  warning  'a' is assigned a value but never used                                     no-unused-vars
+  48312:31  warning  's' is assigned a value but never used                                     no-unused-vars
+  48321:9   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  49257:21  warning  Empty block statement                                                      no-empty
+  49284:19  warning  'i' is defined but never used                                              no-unused-vars
+  49505:22  warning  'n' is already defined                                                     no-redeclare
+  49840:34  warning  'd' is assigned a value but never used                                     no-unused-vars
+  49998:6   warning  'Et' is a function                                                         no-func-assign
+  52284:7   warning  'importScripts' is not defined                                             no-undef
+  53018:40  warning  'Re' is defined but never used                                             no-unused-vars
+  53180:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  54547:47  warning  'a' is defined but never used                                              no-unused-vars
+  55011:41  warning  'a' is defined but never used                                              no-unused-vars
+  55011:44  warning  's' is defined but never used                                              no-unused-vars
+  55381:41  warning  'a' is defined but never used                                              no-unused-vars
+  55423:41  warning  'a' is defined but never used                                              no-unused-vars
+  55494:43  warning  'a' is defined but never used                                              no-unused-vars
+  55494:46  warning  's' is defined but never used                                              no-unused-vars
+  55548:41  warning  'a' is defined but never used                                              no-unused-vars
+  55587:41  warning  'a' is defined but never used                                              no-unused-vars
+  55661:20  warning  'I' is already defined                                                     no-redeclare
+  55663:20  warning  'I' is already defined                                                     no-redeclare
+  55665:20  warning  'I' is already defined                                                     no-redeclare
+  55666:20  warning  'I' is already defined                                                     no-redeclare
+  55676:44  warning  'a' is defined but never used                                              no-unused-vars
+  55794:41  warning  'a' is defined but never used                                              no-unused-vars
+  56397:11  warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  56564:13  warning  Empty block statement                                                      no-empty
+  57402:7   warning  Unexpected combined character in character class                           no-misleading-character-class
+  57437:21  warning  'g' is assigned a value but never used                                     no-unused-vars
+  57671:32  warning  'Ke' is defined but never used                                             no-unused-vars
+  57756:33  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  57906:17  warning  'g' is defined but never used                                              no-unused-vars
+  58039:25  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  58196:22  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  58708:33  warning  'a' is defined but never used                                              no-unused-vars
+  58845:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  59317:19  warning  'e' is defined but never used                                              no-unused-vars
+  59886:26  warning  'S' is assigned a value but never used                                     no-unused-vars
+  60017:25  warning  'r' is assigned a value but never used                                     no-unused-vars
+  60018:28  warning  'i' is assigned a value but never used                                     no-unused-vars
+  60019:29  warning  'o' is assigned a value but never used                                     no-unused-vars
+  60361:14  warning  'e' is defined but never used                                              no-unused-vars
+  60441:24  warning  'e' is defined but never used                                              no-unused-vars
+  60476:18  warning  'Zse' is assigned a value but never used                                   no-unused-vars
+  62504:21  warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  63223:21  warning  't' is assigned a value but never used                                     no-unused-vars
+  63453:18  warning  'e' is defined but never used                                              no-unused-vars
+  63454:13  warning  't' is defined but never used                                              no-unused-vars
+  63454:16  warning  'e' is defined but never used                                              no-unused-vars
+  63455:13  warning  't' is defined but never used                                              no-unused-vars
+  63455:16  warning  'e' is defined but never used                                              no-unused-vars
+  63474:6   warning  'un' is a function                                                         no-func-assign
+  63686:35  warning  'global' is not defined                                                    no-undef
+  63687:9   warning  'global' is not defined                                                    no-undef
+  64073:6   warning  'iE' is a function                                                         no-func-assign
+  64092:6   warning  'Gl' is a function                                                         no-func-assign
+  64105:11  warning  Empty block statement                                                      no-empty
+  64106:11  warning  'V1' is a function                                                         no-func-assign
+  64363:11  warning  Unsafe usage of ReturnStatement                                            no-unsafe-finally
+  64365:16  warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  64393:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  64395:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  65444:7   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  65470:7   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  65477:11  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  65490:11  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  65525:7   warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  65573:5   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  65637:26  warning  Unnecessary escape character: \:                                           no-useless-escape
+  66285:55  warning  'r' is assigned a value but never used                                     no-unused-vars
+  67631:21  warning  'r' is already defined                                                     no-redeclare
+  67795:21  warning  'r' is already defined                                                     no-redeclare
+  69094:13  warning  't' is defined but never used                                              no-unused-vars
+  69220:21  warning  'r' is already defined                                                     no-redeclare
+  69245:42  warning  'n' is assigned a value but never used                                     no-unused-vars
+  69245:69  warning  'i' is assigned a value but never used                                     no-unused-vars
+  70125:4   warning  'di' is a function                                                         no-func-assign
+  70177:28  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  70179:21  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  70216:34  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  70266:6   warning  'h2' is a function                                                         no-func-assign
+  70408:11  warning  'vi' is a function                                                         no-func-assign
+  70460:9   warning  Empty block statement                                                      no-empty
+  70481:14  warning  't' is defined but never used                                              no-unused-vars
+  70486:6   warning  'TE' is a function                                                         no-func-assign
+  70513:14  warning  't' is defined but never used                                              no-unused-vars
+  70518:6   warning  'AE' is a function                                                         no-func-assign
+  70531:15  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  70823:21  warning  'r' is already defined                                                     no-redeclare
+  71560:21  warning  'r' is already defined                                                     no-redeclare
+  71755:17  warning  'e' is defined but never used                                              no-unused-vars
+  72025:6   warning  'Gc' is a function                                                         no-func-assign
+  72045:6   warning  'LE' is a function                                                         no-func-assign
+  72055:6   warning  'nm' is a function                                                         no-func-assign
+  72078:13  warning  't' is defined but never used                                              no-unused-vars
+  72078:16  warning  'e' is defined but never used                                              no-unused-vars
+  72078:19  warning  'n' is defined but never used                                              no-unused-vars
+  72081:10  warning  'O0' is a function                                                         no-func-assign
+  72082:10  warning  'O0' is a function                                                         no-func-assign
+  72098:6   warning  'OE' is a function                                                         no-func-assign
+  72164:11  warning  Unreachable code                                                           no-unreachable
+  72305:13  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72316:11  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72452:17  warning  Unnecessary escape character: \[                                           no-useless-escape
+  72452:42  warning  Unnecessary escape character: \[                                           no-useless-escape
+  72579:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72593:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72602:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72612:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72621:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72630:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72640:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72650:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72660:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72670:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72679:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72688:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72708:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72717:43  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  72973:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  73056:13  warning  't' is defined but never used                                              no-unused-vars
+  73056:16  warning  'e' is defined but never used                                              no-unused-vars
+  73056:19  warning  'n' is defined but never used                                              no-unused-vars
+  73056:22  warning  'r' is defined but never used                                              no-unused-vars
+  73056:25  warning  'i' is defined but never used                                              no-unused-vars
+  73061:6   warning  'UE' is a function                                                         no-func-assign
+  73109:17  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  73224:19  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  73241:19  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  73248:26  warning  'd' is defined but never used                                              no-unused-vars
+  73248:29  warning  'p' is defined but never used                                              no-unused-vars
+  73270:14  warning  't' is defined but never used                                              no-unused-vars
+  73275:6   warning  'kE' is a function                                                         no-func-assign
+  73299:14  warning  't' is defined but never used                                              no-unused-vars
+  73304:6   warning  'BE' is a function                                                         no-func-assign
+  76017:23  warning  Unnecessary escape character: \%                                           no-useless-escape
+  77604:21  warning  'r' is already defined                                                     no-redeclare
+  80044:21  warning  'r' is already defined                                                     no-redeclare
+  80252:21  warning  'r' is already defined                                                     no-redeclare
+  83148:21  warning  'r' is already defined                                                     no-redeclare
+  83832:21  warning  'r' is already defined                                                     no-redeclare
+  83969:21  warning  'r' is already defined                                                     no-redeclare
+  84299:21  warning  'r' is already defined                                                     no-redeclare
+  84473:21  warning  'r' is already defined                                                     no-redeclare
+  84635:21  warning  'r' is already defined                                                     no-redeclare
+  85288:21  warning  'r' is already defined                                                     no-redeclare
+  85526:21  warning  'r' is already defined                                                     no-redeclare
+  85604:21  warning  'r' is already defined                                                     no-redeclare
+  85919:17  warning  Empty block statement                                                      no-empty
+  86215:23  warning  'r' is already defined                                                     no-redeclare
+
+✖ 883 problems (0 errors, 883 warnings)
+

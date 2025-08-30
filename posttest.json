@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Given the regular expression (a|b)*c, what is the accepting condition of the NFA built using Thompson’s Construction?",
+      "answers": {
+        "a": "It accepts only the sequence 'abc'.",
+        "b": "It accepts any sequence (including empty) of 'a' and 'b' followed by a single 'c'.",
+        "c": "It accepts strings where 'c' can appear anywhere in the middle.",
+        "d": "It accepts only repetitions of 'c'."
+      },
+      "explanations": {
+        "a": "Incorrect. The regex allows multiple sequences of 'a' and 'b' before 'c', not just 'ab'.",
+        "b": "Correct! (a|b)* means zero or more 'a' or 'b', followed by exactly one 'c'.",
+        "c": "Incorrect. 'c' must be the final symbol.",
+        "d": "Incorrect. The Kleene star applies only to (a|b), not to 'c'."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "In Thompson’s Construction, how are ε-transitions specifically used during the concatenation of two fragments R1 and R2?",
+      "answers": {
+        "a": "The final state of R1 is connected to the start state of R2 using an ε-transition.",
+        "b": "The start state of R1 is merged with the start state of R2.",
+        "c": "All transitions of R1 are replaced by ε-transitions leading into R2.",
+        "d": "Both fragments are duplicated to avoid nondeterminism."
+      },
+      "explanations": {
+        "a": "Correct! Concatenation links R1’s final state to R2’s start using an ε-transition.",
+        "b": "Incorrect. States are not merged directly.",
+        "c": "Incorrect. Only one ε-transition is added, not replacements.",
+        "d": "Incorrect. Thompson’s method avoids duplication by using ε-links."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "When applying the Kleene star (*) to an NFA fragment, which of the following structural modifications is correct?",
+      "answers": {
+        "a": "Introduce a new start and accept state, connect start → fragment start and fragment accept → new accept using ε, and add a loop from fragment accept → fragment start.",
+        "b": "Replace all input symbols with ε to allow skipping transitions.",
+        "c": "Manually duplicate the fragment infinitely to represent repetitions.",
+        "d": "Remove the accept state and treat the start as both start and accept."
+      },
+      "explanations": {
+        "a": "Correct! Thompson’s Kleene star construction creates new entry/exit states and ε-loops to allow zero or more repetitions.",
+        "b": "Incorrect. Input symbols are not replaced.",
+        "c": "Incorrect. Infinite duplication is not feasible; ε-loops handle repetition.",
+        "d": "Incorrect. Accept states remain important for recognition."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which step in the subset construction algorithm requires computing the ε-closure of a state set?",
+      "answers": {
+        "a": "When determining the initial DFA state from the NFA start state.",
+        "b": "Only when finalizing the DFA transition table.",
+        "c": "Only when processing union operations in the original regex.",
+        "d": "At the end of the algorithm to minimize states."
+      },
+      "explanations": {
+        "a": "Correct! The initial DFA state is the ε-closure of the NFA start state, and closures are used for each computed transition.",
+        "b": "Incorrect. It is used from the very beginning, not only at finalization.",
+        "c": "Incorrect. Subset construction applies regardless of regex operations.",
+        "d": "Incorrect. Minimization is a separate step after DFA construction."
+      },
+      "correctAnswer": "a",
+      "difficulty": "technical"
+    },
+    {
+      "question": "For the regex (a|b)*abb, what is the correct order of operations in Thompson’s Construction?",
+      "answers": {
+        "a": "First build union (a|b), apply Kleene star, then concatenate with 'a', 'b', 'b'.",
+        "b": "First concatenate 'a', 'b', 'b', then apply Kleene star, then union.",
+        "c": "Apply Kleene star to each symbol individually before concatenating.",
+        "d": "Directly construct NFA without breaking the regex."
+      },
+      "explanations": {
+        "a": "Correct! Union of (a|b) is constructed first, Kleene star is applied, then concatenation with abb.",
+        "b": "Incorrect. Concatenation comes after star expansion, not before.",
+        "c": "Incorrect. Kleene star applies to the grouped (a|b), not individual letters.",
+        "d": "Incorrect. Thompson’s method always decomposes step by step."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is Thompson’s Construction widely preferred in regex engine implementation?",
+      "answers": {
+        "a": "It guarantees the minimum possible number of states in the NFA.",
+        "b": "It provides a systematic, mechanical way to build NFAs for any regex using only small fragment rules.",
+        "c": "It eliminates nondeterminism completely at the construction stage.",
+        "d": "It works only for finite-length regular expressions."
+      },
+      "explanations": {
+        "a": "Incorrect. The NFAs produced are not minimal.",
+        "b": "Correct! Its mechanical rules make it simple to implement in compilers and regex engines.",
+        "c": "Incorrect. The NFAs are still nondeterministic, determinization comes later.",
+        "d": "Incorrect. It works for all valid regular expressions, not just finite-length ones."
+      },
+      "correctAnswer": "b",
+      "difficulty": "technical"
+    }
+  ]
+}
