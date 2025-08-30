@@ -1,1 +1,1 @@
-<h3>Conversion of RE to NFA</h3>
+<h2> Conversion of RE to NFA </h2>
