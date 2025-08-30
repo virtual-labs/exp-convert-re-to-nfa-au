@@ -4,7 +4,7 @@
 
 A **Finite Automaton (FA)** is a mathematical model of computation that acts as an abstract machine for recognizing patterns. It consists of a finite number of states and transitions between them, based on input symbols.  
 
-Its main purpose is to determine whether an input string conforms to a predefined pattern—**accepting** or **rejecting** it.  
+Its main purpose is to determine whether an input string conforms to a predefined pattern — **accepting** or **rejecting** it.  
 
 Formally, an FA is a 5-tuple:
 
@@ -16,12 +16,17 @@ where:
 - **Q** → Finite set of states  
 - **Σ (Sigma)** → Finite set of input symbols (alphabet)  
 - **δ (delta)** → Transition function  
-  - DFA: δ : Q × Σ → Q  
-  - NFA: δ : Q × Σ → 2^Q (set of possible next states)  
-- **q₀** → Initial state (q₀ ∈ Q)  
-- **F** → Set of accepting (final) states, F ⊆ Q  
+  - DFA: \(\delta : Q \times \Sigma \to Q\)  
+  - NFA: \(\delta : Q \times \Sigma \to 2^Q\) (set of possible next states)  
+- **q₀** → Initial state (\(q₀ \in Q\))  
+- **F** → Set of accepting (final) states, \(F \subseteq Q\)  
 
-**Applications:** Finite automata form the foundation of **regular languages** and are used in compilers (lexical analysis), pattern matching, and input validation.
+**Applications:**  
+Finite automata form the foundation of **regular languages** and are used in:  
+- Compiler design (lexical analysis)  
+- Pattern matching  
+- Input validation  
+
 
 ---
 
@@ -38,28 +43,35 @@ Let Σ be an alphabet. The set of **regular expressions** over Σ is defined rec
 ###### Base Cases
 1. **Empty set (∅):**  
    - RE: `∅`  
-   - Language: L(∅) = {} (no strings)  
+   - Language: \(L(∅) = \{\}\) (no strings)  
 
 2. **Empty string (ε):**  
    - RE: `ε`  
-   - Language: L(ε) = {""}  
+   - Language: \(L(ε) = \{""\}\)  
 
 3. **Single symbol (a ∈ Σ):**  
    - RE: `a`  
-   - Language: L(a) = {"a"}  
+   - Language: \(L(a) = \{"a"\}\)  
 
 ###### Recursive Cases (If R₁ and R₂ are REs)
 1. **Union (R₁ | R₂):**  
-   - Language: L(R₁ | R₂) = L(R₁) ∪ L(R₂)  
+   \[
+   L(R₁ \mid R₂) = L(R₁) \cup L(R₂)
+   \]
 
 2. **Concatenation (R₁R₂):**  
-   - Language: L(R₁R₂) = {xy | x ∈ L(R₁), y ∈ L(R₂)}  
+   \[
+   L(R₁R₂) = \{xy \mid x \in L(R₁),\; y \in L(R₂)\}
+   \]
 
 3. **Kleene Star (R₁*):**  
-   - Language: L(R₁*) = {ε, w, ww, www, ... | w ∈ L(R₁)}  
+   \[
+   L(R₁^*) = \{\epsilon, w, ww, www, \dots \mid w \in L(R₁)\}
+   \]
 
 4. **Parentheses ():**  
-   - Used for grouping, e.g., `(a|b)c`  
+   - Used for grouping, e.g., \((a \mid b)c\)  
+
 
 ---
 
@@ -72,6 +84,7 @@ An **NFA** is a finite automaton where multiple transitions for the same symbol 
 - **ε-transitions:** State changes can occur without reading input.  
 - **Acceptance rule:** An input is accepted if **at least one computation path** leads to an accepting state.  
 - **Equivalence:** Every NFA has an equivalent DFA, though conversion may cause an exponential increase in states.  
+
 
 ---
 
@@ -94,18 +107,19 @@ An **NFA** is a finite automaton where multiple transitions for the same symbol 
   - NFA: Start →a→ Final  
 
 ###### Recursive Cases
-- **Concatenation (R₁R₂):**  
-  - Connect final state of NFA(R₁) to start state of NFA(R₂) with an ε-transition.  
-  - Start = start of R₁, Final = final of R₂  
+1. **Concatenation (R₁R₂):**  
+   - Connect the final state of **NFA(R₁)** to the start state of **NFA(R₂)** using an **ε-transition**.  
+   - Start state = start of **R₁**  
+   - Final state = final of **R₂**  
 
-- **Union (R₁ | R₂):**  
-  - Create new start and final states.  
-  - ε-transition from new start to both R₁ and R₂ starts.  
-  - ε-transition from both R₁ and R₂ finals to new final.  
+2. **Union (R₁ | R₂):**  
+   - Create a **new start state** and a **new final state**.  
+   - Add **ε-transitions** from the new start state to the start states of both **R₁** and **R₂**.  
+   - Add **ε-transitions** from the final states of **R₁** and **R₂** to the new final state.  
 
-- **Kleene Star (R*):**  
-  - Create new start and final states.  
-  - ε-transition from new start → old start.  
-  - ε-transition from old final → old start (loop).  
-  - ε-transition from old final → new final.  
-  - ε-transition from new start → new final (for zero repetitions).  
+3. ##### Kleene Star (R*)
+   - Create a **new start state** and a **new final state**.  
+   - Add an **ε-transition** from the new start to the old start state.  
+   - Add an **ε-transition** from the old final state back to the old start state (loop for repetition).  
+   - Add an **ε-transition** from the old final state to the new final state.  
+   - Add an **ε-transition** from the new start to the new final state (for zero repetitions).  

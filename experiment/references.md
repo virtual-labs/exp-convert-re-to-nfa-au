@@ -1,4 +1,4 @@
-### References 
+### References (Free Resources)
 
 1. K. Thompson, "Programming Techniques: Regular Expression Search Algorithm," *Communications of the ACM*, vol. 11, no. 6, pp. 419–422, 1968. [Online]. Available: [https://dl.acm.org/doi/10.1145/363347.363387](https://dl.acm.org/doi/10.1145/363347.363387)  
 
