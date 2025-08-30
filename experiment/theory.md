@@ -28,7 +28,7 @@ Finite automata form the foundation of **regular languages** and are used in:
 - Input validation  
 
 
----
+
 
 #### Regular Expressions (RE)
 
@@ -73,7 +73,7 @@ Let Σ be an alphabet. The set of **regular expressions** over Σ is defined rec
    - Used for grouping, e.g., \((a \mid b)c\)  
 
 
----
+
 
 #### Non-Deterministic Finite Automaton (NFA)
 
@@ -86,7 +86,7 @@ An **NFA** is a finite automaton where multiple transitions for the same symbol 
 - **Equivalence:** Every NFA has an equivalent DFA, though conversion may cause an exponential increase in states.  
 
 
----
+
 
 #### Thompson’s Construction: RE → NFA
 
