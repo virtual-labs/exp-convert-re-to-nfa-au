@@ -1,4 +1,4 @@
-### RE to NFA Converter — Procedure  
+### Procedure  
 
 #### Step 1: Choose Variables and Operations  
 
