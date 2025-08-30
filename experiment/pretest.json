@@ -2,89 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "In automata theory, what does a Regular Expression (RE) represent?",
+      "question": "In automata theory, which class of languages can be represented exactly by Regular Expressions (RE)?",
       "answers": {
-        "a": "A symbolic notation used to describe patterns in strings.",
-        "b": "A table of states and transitions in an automaton.",
-        "c": "A set of rules for programming language syntax.",
-        "d": "A mathematical formula for calculating probabilities."
+        "a": "Context-Free Languages",
+        "b": "Regular Languages",
+        "c": "Deterministic Context-Free Languages",
+        "d": "Recursively Enumerable Languages"
       },
       "explanations": {
-        "a": "Correct! Regular expressions are symbolic notations used to define sets of strings over an alphabet.",
-        "b": "This describes a transition table, not a regular expression.",
-        "c": "Syntax rules are part of grammars, not directly the same as regular expressions.",
-        "d": "Regular expressions are unrelated to probability calculations."
-      },
-      "correctAnswer": "a",
-      "difficulty": "basic"
-    },
-    {
-      "question": "What does NFA stand for and how does it differ from DFA?",
-      "answers": {
-        "a": "Non-Finite Automaton; it has infinite states unlike DFA.",
-        "b": "Nondeterministic Finite Automaton; it can have multiple possible transitions for the same input symbol.",
-        "c": "Networked Finite Automaton; it processes inputs over a network.",
-        "d": "Numerical Finite Algorithm; it processes numbers deterministically."
-      },
-      "explanations": {
-        "a": "Incorrect. Both NFAs and DFAs have a finite number of states.",
-        "b": "Correct! An NFA can have multiple possible next states (or ε-moves) for the same input symbol, unlike DFA.",
-        "c": "No such concept exists in automata theory.",
-        "d": "Not a term used in automata theory."
+        "a": "Incorrect. Context-Free Languages require grammars or pushdown automata, not just RE.",
+        "b": "Correct! Regular Expressions correspond exactly to the class of Regular Languages.",
+        "c": "Incorrect. Deterministic CFLs are more powerful than Regular Languages.",
+        "d": "Incorrect. Recursively enumerable languages are much more general and require Turing machines."
       },
       "correctAnswer": "b",
-      "difficulty": "basic"
+      "difficulty": "technical"
     },
     {
-      "question": "In Thompson’s Construction, what is the purpose of using ε (epsilon) transitions?",
+      "question": "During Thompson’s Construction, how is concatenation of two NFAs (N1 for R1 and N2 for R2) implemented?",
       "answers": {
-        "a": "To allow state changes without consuming any input symbol.",
-        "b": "To skip invalid input symbols.",
-        "c": "To store intermediate computation results.",
-        "d": "To represent a wildcard in regular expressions."
+        "a": "By merging the final state of N1 with the start state of N2 using an ε-transition.",
+        "b": "By duplicating the states of N1 and N2 into a larger automaton.",
+        "c": "By replacing input symbols of N1 with those of N2.",
+        "d": "By creating a new single state that represents both automata."
       },
       "explanations": {
-        "a": "Correct! ε-transitions connect fragments in Thompson’s Construction without consuming input.",
-        "b": "Epsilon transitions are not used to skip invalid inputs.",
-        "c": "NFAs do not store computation results in this way.",
-        "d": "A wildcard is different from an epsilon transition."
+        "a": "Correct! Concatenation is done by linking N1’s final state to N2’s start state via an ε-transition.",
+        "b": "No duplication of all states is required.",
+        "c": "Input symbols are not replaced between automata.",
+        "d": "Automata are not compressed into a single state in Thompson’s method."
       },
       "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "difficulty": "technical"
     },
     {
-      "question": "When converting the regular expression (a|b)*abb to an NFA using Thompson’s Construction, which operation is applied first?",
+      "question": "Which of the following is TRUE regarding the equivalence of NFAs and DFAs?",
       "answers": {
-        "a": "Union (alternation) of 'a' and 'b'.",
-        "b": "Concatenation of the sequence 'a', 'b', 'b'.",
-        "c": "Applying the Kleene star (*) to the alternation result.",
-        "d": "Direct conversion of the entire expression without decomposition."
+        "a": "Every NFA can be converted to a DFA using the subset construction method.",
+        "b": "Every DFA can be converted to an NFA, but the reverse is not true.",
+        "c": "NFAs recognize strictly more languages than DFAs.",
+        "d": "DFAs require ε-transitions to simulate NFAs."
       },
       "explanations": {
-        "a": "The alternation of 'a' and 'b' is done first for the (a|b) part.",
-        "b": "Concatenation happens later after applying Kleene star.",
-        "c": "Correct! After creating the alternation NFA for (a|b), the Kleene star is applied to that fragment.",
-        "d": "Thompson’s method always decomposes the expression into smaller fragments."
+        "a": "Correct! NFAs and DFAs are equivalent in power; NFAs can be determinized using subset construction.",
+        "b": "Incorrect. The reverse is also true—NFAs can be converted into DFAs.",
+        "c": "Incorrect. NFAs and DFAs recognize the same set of languages (Regular Languages).",
+        "d": "DFAs do not use ε-transitions; they require deterministic transitions."
       },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     },
     {
-      "question": "Why is Thompson’s Construction preferred for implementing regex in lexical analyzers?",
+      "question": "When applying Kleene Star in Thompson’s Construction for an expression R*, what structural modification is made?",
       "answers": {
-        "a": "It guarantees minimal DFA states.",
-        "b": "It produces an NFA that is simple to construct mechanically.",
-        "c": "It avoids the need for any state transitions.",
-        "d": "It works only for very short regular expressions."
+        "a": "A new start state is created with ε-transitions to R and to a new final state, and R’s final connects back to its start with ε.",
+        "b": "The automaton is simply duplicated infinitely many times.",
+        "c": "Each transition symbol is replaced with multiple ε-transitions.",
+        "d": "A new final state is created that directly absorbs all input without processing R."
       },
       "explanations": {
-        "a": "Incorrect. Thompson’s method does not guarantee minimal DFA states.",
-        "b": "Correct! Its step-by-step fragment construction makes it easy to implement automatically.",
-        "c": "NFAs still require transitions; ε-transitions are common in this method.",
-        "d": "It works for any valid regular expression, regardless of length."
+        "a": "Correct! Kleene Star construction uses ε-transitions to allow zero or more repetitions of R.",
+        "b": "Not feasible. Infinite duplication is impossible in practice.",
+        "c": "Transitions are not replaced; ε-links handle repetition.",
+        "d": "The construction does not bypass R entirely; it includes repetition logic."
       },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Why is ε-closure important in the subset construction algorithm for converting NFA to DFA?",
+      "answers": {
+        "a": "It ensures that all possible ε-moves from a set of states are considered as part of the DFA state.",
+        "b": "It reduces the number of states in the resulting DFA.",
+        "c": "It eliminates nondeterminism by removing redundant transitions.",
+        "d": "It guarantees that the DFA will always be minimal."
+      },
+      "explanations": {
+        "a": "Correct! ε-closure collects all states reachable via ε-transitions, ensuring deterministic behavior in the DFA.",
+        "b": "Not necessarily; ε-closure can actually increase the number of states.",
+        "c": "It handles nondeterminism but does not remove redundancy directly.",
+        "d": "Minimization is a separate step after subset construction."
+      },
+      "correctAnswer": "a",
+      "difficulty": "technical"
     }
   ]
 }
