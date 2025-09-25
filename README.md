@@ -3,7 +3,7 @@
 
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
-<b> Lab | <b>Computer Science and Engineering
+<b> Lab | <b>Formal Language Automata
 <b> Experiment|     <b> Convert RE to NFA
 
 ### About the Experiment 
