@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In automata theory, which class of languages can be represented exactly by Regular Expressions (RE)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Context-Free Languages",
+        "b": "Regular Languages",
+        "c": "Deterministic Context-Free Languages",
+        "d": "Recursively Enumerable Languages"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Context-Free Languages require grammars or pushdown automata, not just RE.",
+        "b": "Correct! Regular Expressions correspond exactly to the class of Regular Languages.",
+        "c": "Incorrect. Deterministic CFLs are more powerful than Regular Languages.",
+        "d": "Incorrect. Recursively enumerable languages are much more general and require Turing machines."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "technical"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "During Thompson’s Construction, how is concatenation of two NFAs (N1 for R1 and N2 for R2) implemented?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "By merging the final state of N1 with the start state of N2 using an ε-transition.",
+        "b": "By duplicating the states of N1 and N2 into a larger automaton.",
+        "c": "By replacing input symbols of N1 with those of N2.",
+        "d": "By creating a new single state that represents both automata."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! Concatenation is done by linking N1’s final state to N2’s start state via an ε-transition.",
+        "b": "No duplication of all states is required.",
+        "c": "Input symbols are not replaced between automata.",
+        "d": "Automata are not compressed into a single state in Thompson’s method."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "technical"
+    },
+    {
+      "question": "Which of the following is TRUE regarding the equivalence of NFAs and DFAs?",
+      "answers": {
+        "a": "Every NFA can be converted to a DFA using the subset construction method.",
+        "b": "Every DFA can be converted to an NFA, but the reverse is not true.",
+        "c": "NFAs recognize strictly more languages than DFAs.",
+        "d": "DFAs require ε-transitions to simulate NFAs."
+      },
+      "explanations": {
+        "a": "Correct! NFAs and DFAs are equivalent in power; NFAs can be determinized using subset construction.",
+        "b": "Incorrect. The reverse is also true—NFAs can be converted into DFAs.",
+        "c": "Incorrect. NFAs and DFAs recognize the same set of languages (Regular Languages).",
+        "d": "DFAs do not use ε-transitions; they require deterministic transitions."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "When applying Kleene Star in Thompson’s Construction for an expression R*, what structural modification is made?",
+      "answers": {
+        "a": "A new start state is created with ε-transitions to R and to a new final state, and R’s final connects back to its start with ε.",
+        "b": "The automaton is simply duplicated infinitely many times.",
+        "c": "Each transition symbol is replaced with multiple ε-transitions.",
+        "d": "A new final state is created that directly absorbs all input without processing R."
+      },
+      "explanations": {
+        "a": "Correct! Kleene Star construction uses ε-transitions to allow zero or more repetitions of R.",
+        "b": "Not feasible. Infinite duplication is impossible in practice.",
+        "c": "Transitions are not replaced; ε-links handle repetition.",
+        "d": "The construction does not bypass R entirely; it includes repetition logic."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Why is ε-closure important in the subset construction algorithm for converting NFA to DFA?",
+      "answers": {
+        "a": "It ensures that all possible ε-moves from a set of states are considered as part of the DFA state.",
+        "b": "It reduces the number of states in the resulting DFA.",
+        "c": "It eliminates nondeterminism by removing redundant transitions.",
+        "d": "It guarantees that the DFA will always be minimal."
+      },
+      "explanations": {
+        "a": "Correct! ε-closure collects all states reachable via ε-transitions, ensuring deterministic behavior in the DFA.",
+        "b": "Not necessarily; ε-closure can actually increase the number of states.",
+        "c": "It handles nondeterminism but does not remove redundancy directly.",
+        "d": "Minimization is a separate step after subset construction."
+      },
+      "correctAnswer": "a",
+      "difficulty": "technical"
     }
   ]
 }
