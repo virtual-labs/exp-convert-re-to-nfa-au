@@ -1,4 +1,4 @@
-### Procedure  
+ 
 
 #### Step 1: Choose Variables and Operations  
 
