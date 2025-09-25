@@ -1,4 +1,3 @@
-### Theory
 
 #### Finite Automaton (FA)
 

@@ -1,4 +1,3 @@
-### Aim of the Experiment
 
 The objective of this experiment is to **convert a given Regular Expression (RE) into an equivalent Non-Deterministic Finite Automaton (NFA)** using **Thompson’s Construction method**.  
 This experiment demonstrates the step-by-step transformation process, enabling learners to understand how regular expressions can be systematically represented as finite automata.  
